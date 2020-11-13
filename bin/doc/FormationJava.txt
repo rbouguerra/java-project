@@ -1,0 +1,242 @@
+          Formation JAVA
+**********************************************
+
+1/ class ==> Collection of variables and methods
+2/ main() ==> method can be present in same class
+3/ main() ==< method can be present in separate class
+
+
+Data Types in java:
+1/ Premetive data type: int/ double/char/boolean/short/float.....
+2/ Drived data types: Array/ArrayList/String/ Hashmap....
+
+***********************************
+Part 1
+
+Empl==> OOP => Object Oriented programming
+
+Object==> is an instance of a class
+Method==> block of code wich contain a logic
+
+Class Variables 
+
+We can assign values to variables in 3 ways
+1/By using reference variable
+2/By using method
+3/By using constructor
+
+-----------------------
+
+Methods:==> Block of code
+1/case-1:Not tacking parameters and also not returned any value
+2/ case-2:Not tacking parameters but returning value
+3/case-3:Tacking parameters but not returning any value
+4/case4:Tacking parameters and also returning a value
+
+Constructor
+
+Types Constructor
+1/Default constructor
+2/Parameterized constructor
+
+1/A special type of method
+2/Used for initializing the class variable
+3/Name should be same as class name
+4/Will not return any value
+5/Will invoke at the time of object creation
+
+Part 2 
+---------
+- Overloading
+- this Keyword
+- static variables and static method
+--------------------------------------
+Overloading: Creating methods / constructors with the same name with diffrent parameters
+Advantages:
+1/Save memory
+2/Save Time
+
+static variables and static method
+static ==> applicable for varibles and methods
+*/static varible
+*/static method
+
+1/static method can access only static stuff(directly)==>without create an object
+2/static method can also access non static stuff but through object
+3/Non static methods can access both static and non static stuff direct (True)
+
+Part 3
+************
+Java inheritance
+Method overriding
+super keyword
+final keyword
+***********************
+
+Java inheritance (Héritage)
+*/Aquiring all The properties from one class to another class is called Inheritance
+5 Types of Inheritance
+1/Single
+2/Multilevel
+3/Hierarchical
+4/Multiple
+5/Hybrid
+********************
+Method overriding
+Rewrite the methods in child classes:
+1/Methods difinition should be same
+2/Body should be changed
+
+Overloading                                          | Overriding
+1/Change the difinition of methods                     - We don't change th edifinition
+(number and data of parameter)should be different      - we should change only the body
+
+**************************
+super keyword
+
+==> use in Inheritance
+1/super can be used to refer immediate parent class instance variable
+2/super can be used to invoke immediate parent class method
+3/super() can be used to invoke immediate parent class constructor
+
+
+***********************
+final keyword
+Variable==> you cannot change the value of the variable
+Method==> method cannot be overrid in the child class
+Class==> class cannot be extend into another class
+*********************
+
+Java Interface
+Java package 
+Access Modifier's
+
+*********************
+Java Interface
+
+* An interface in java is a blueprint of a class
+* Interface contains final and static variables
+* Interface contains abstract methods
+==> An abstract method is a method contains defintion but not body
+* Method in interface are public by default
+* interface supports the functionality of multiple inheritance
+* we can define interface with interface keyword
+* A class extends another class an interface extends another interface but a class implements an interface
+* We can create object refrence for interface but we cannot instantiate interface
+
+
+Java package 
+Package: is collection of classes / interfaces / files ....
+import ==> is a commande
+2 Types of packages:
+1/ User defined packages (Create by us)
+2/ Build in packages
+
+
+Access Modifier's
+******************************
+Access modifier's:Define the scope of variables and methods
+
+1/Public
+2/Protected
+3/Default
+4/Private
+
+Private: The private access modifier is accessible only within class
+
+Default:if you don't use any modifier, it is treated as default by default
+The default modifier is accessible only within package
+
+Protected: The protected access modifier is accessible within package and outside the package but though inheritance
+
+Public:
+We can access everywhere
+
+Exception Handling
+Exception is an abnormal condition
+In java, exception is an event that distupts the normal flow of the program.
+
+2 Types of exception:
+
+1/Checked Exception:identified by the compiler
+Examples: 
+InterruptedException
+IOException
+FileNotFoundException
+
+2/Unchecked exception : which are not checked / identified by compiler
+Examples:
+- ArthmeticException
+- NullPointerException
+- NumberFormatException
+- ArrayIndexOutOfBoundsException
+
+
+Finally Block is always executes
+1/Exception doesn't occur
+2/Exception occurs and not handled
+3/Exception occurs and handled
+
+CheckedException
+can be handled in 2 ways:
+1/try---catch
+2/throws keyword
+
+***************************
+
+ArrayList
+HashMap
+JDBC=Java DataBase Connectivity
+
+***************************
+ArrayList
+
+int a []= new int [5];==> simple Array
+-we cannot store more then 5 elments 
+- we cannot store multiple types of elements(int)
+
+ArrayList==> we can store any number and types of elements
+
+Operation on ArrayList
+- How to declare arraylist
+- How to add elements /values to arraylist
+- Find size of arraylist
+- Read values from arraylist
+- remove elements / values from arraylist
+- Insert a new element in the middle of arraylist
+**********************************
+HashMap
+
+Declare Hadhmap
+Remove element from hashmap
+Read pairs for hashmap
+Add elements to hashmap
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
